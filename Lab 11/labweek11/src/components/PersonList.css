@@ -1,0 +1,33 @@
+.App {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    background-color: pink;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  img {
+    border-radius: 50%; /* Optional: Apply a border-radius to make the image round */
+    margin: 20px; /* Adjust margin as needed */
+    margin-right: 30px;
+  }
+
+  .text-container {
+    flex: 1; /* Take up remaining space in the flex container */
+  }
