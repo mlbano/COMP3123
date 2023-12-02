@@ -13,12 +13,15 @@ var employeeSchema = new mongoose.Schema({
     },
     email: {
         type: String, 
+        required: true,
         unique: true,
         maxLength: 50
     },
     gender: {
         type: String,
-        enum: ['Male', 'Female', 'Other', 'Prefer not to say']
+        required: true,
+        enum: ['Male', 'Female', 'Other', 'Prefer not to say'],
+        maxLength: 25
     },
     salary: {
         type: Number,
